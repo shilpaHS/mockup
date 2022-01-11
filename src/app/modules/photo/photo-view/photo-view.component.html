@@ -1,0 +1,22 @@
+<div class="container">
+    <h3 class="mt-5 mb-1">
+        {{photo?.title}}
+    </h3>
+    <span class="click-item"> View Album</span>
+    <div class="float-right">
+        <button type="button" [routerLink]="['/photo']" class="btn btn-outline-primary">Back</button>
+    </div>
+    <div class="row d-flex flex-row bd-highlight m-5">
+        <div style="position: relative">
+            <ngx-spinner bdOpacity=0.9 bdColor="#f4f4f9" size="medium" color="#0d6efd" type="ball-clip-rotate"
+                [fullScreen]="false">
+            </ngx-spinner>
+        </div>
+        <div class="card p-0 m-2">
+            <img src="{{photo?.url}}" class="card-img-top" alt="...">
+            <!-- <div class="card-footer">
+                <div class="cut-text click-item">{{photo.title}}</div>
+            </div> -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="container">
+    <h3 class="mt-5 mb-1">
+        {{album?.title}}
+    </h3>
+    By <span class="click-item"> User {{album?.userId}}</span>
+    <div class="float-right">
+        <button type="button" [routerLink]="['/album']" class="btn btn-outline-primary">Back</button>
+    </div>
+    <div class="row d-flex flex-row bd-highlight mb-3">
+        <div style="position: relative">
+            <ngx-spinner bdOpacity=0.9 bdColor="#f4f4f9" size="medium" color="#0d6efd" type="ball-clip-rotate"
+                [fullScreen]="false">
+            </ngx-spinner>
+        </div>
+        <div class="card p-0 m-2" style="width: 12rem;" *ngFor="let photo of Photos">
+            <img src="{{photo.thumbnailUrl}}" class="card-img-top" alt="...">
+            <div class="card-footer">
+                <div class="cut-text click-item">{{photo.title}}</div>
+            </div>
+        </div>
+    </div>
+</div>

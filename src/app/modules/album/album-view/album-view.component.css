@@ -1,0 +1,14 @@
+.cut-text { 
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 160px; 
+    height: 1.2em; 
+    white-space: nowrap;
+  }
+  .click-item {
+    color:  #337ab7 !important;
+    cursor: pointer;
+    }
+.float-right{
+    float: right!important;
+}

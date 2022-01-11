@@ -1,0 +1,33 @@
+<div class="container">
+    <h3 class="mt-5 mb-5">
+        Posts
+    </h3>
+    <div style="position: relative">
+        <ngx-spinner bdOpacity=0.9 bdColor="#f4f4f9" size="medium" color="#0d6efd" type="ball-clip-rotate"
+            [fullScreen]="false">
+        </ngx-spinner>
+    </div>
+    <div class="row" *ngIf="posts.length>0">
+        <table datatable [dtOptions]="dtOptions" class="row-border hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>User</th>
+                    <th>Title</th>
+                    <th>Body</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let post of posts">
+                    <td>{{ post.id }}</td>
+                    <td class="click-item" [routerLink]="['/post',post.id]">{{ post.userId }}</td>
+                    <td class="click-item" [routerLink]="['/post',post.id]">{{ post.title }}</td>
+                    <td>{{ post.body }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+</div>
