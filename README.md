@@ -5,7 +5,7 @@
     Example app with Angular 13 + Angular CLI + ESlint + bootstrap 5
     <br>
     <br>
-    Base project cotains advanced patterns,datatbles, generated library, and much more!
+    Base project cotains advanced patterns,datatables, services, generated library, and much more!
     <br>
     <br>
     <a href="https://mockup-859bb.web.app/">DEMO HERE</a>
@@ -21,14 +21,15 @@ npm start
 
 ## Backend
 
-This project is using a [here](https://jsonplaceholder.typicode.com/)API provider.
+This project is using a [here](https://jsonplaceholder.typicode.com/) API provider.
 
 ## What's included
 
 - [x] Lazy loading modules
 - [x] More logical directory structure
 - [x] Following the [best practices](https://angular.io/guide/styleguide)!
-- [x] Search bar, to look for posts,photos,album
+- [x] Search bar, to look for posts, photos, album
+- [x] Angular Services
 - [x] Custom loading page
 - [x] Dashboard analytics
 - [x] Responsive layout (flex layout module)
