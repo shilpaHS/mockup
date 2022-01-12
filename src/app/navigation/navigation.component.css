@@ -20,6 +20,10 @@
  a[data-toggle="collapse"] {
 	 position: relative;
 }
+.toggle-button {
+	display: none !important;
+}
+
  @media (max-width: 575px) {
 	 #sidebar {
 		 margin-left: -200px;
@@ -27,6 +31,9 @@
 	 #sidebar.hidden {
 		 margin-left: 0;
 	}
+	.toggle-button {
+        display:flex !important;
+    }
 }
  a, a:hover, a:focus {
 	 color: inherit;
@@ -50,3 +57,32 @@
 	 background-color: #0871c7!important;
 	 color: #ffffff!important;
  }
+ .float-right{
+	 float:right
+ }
+ @media screen and (max-width: 1024px) {
+    .toggle-button {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+	.toggle-button {
+        display:flex !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+	.toggle-button {
+        display:flex !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+	.toggle-button {
+		display: none !important;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.toggle-button {
+		display: none !important;
+	}
+}

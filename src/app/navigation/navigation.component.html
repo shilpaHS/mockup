@@ -1,5 +1,12 @@
-<nav id="sidebar" class="">
-    <ul class="navbar-nav">
+<nav class="navbar float-right toggle-button">
+    <button type="button" class="navbar-toggler" (click)="toggleSideNav()">
+        <span class="navbar-toggler-icon"><i class="fa fa-list"></i></span>
+    </button>
+</nav>
+
+<nav id="sidebar" class="" [ngClass]="{'hidden': hideSideNav }">
+    <a class="navbar-brand p-3 text-dark">My App</a>
+    <ul class="navbar-nav mt-4">
         <li class="nav-item active">
 
             <a class="nav-link" [routerLink]="['dashboard']" routerLinkActive="is-active">Dashboard</a>

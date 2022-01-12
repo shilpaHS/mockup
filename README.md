@@ -1,28 +1,58 @@
+<p align="center">
+  <h3 align="center">Angular Example App</h3>
 
-# Assignment
+  <p align="center">
+    Example app with Angular 13 + Angular CLI + ESlint + bootstrap 5
+    <br>
+    <br>
+    Base project cotains advanced patterns,datatbles, generated library, and much more!
+    <br>
+    <br>
+    <a href="https://mockup-859bb.web.app/">DEMO HERE</a>
+  </p>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+## Setup
 
-## Development server
+```bash
+npm i
+npm start
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Backend
 
-## Code scaffolding
+This project is using a [here](https://jsonplaceholder.typicode.com/)API provider.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## What's included
 
-## Build
+- [x] Lazy loading modules
+- [x] More logical directory structure
+- [x] Following the [best practices](https://angular.io/guide/styleguide)!
+- [x] Search bar, to look for posts,photos,album
+- [x] Custom loading page
+- [x] Dashboard analytics
+- [x] Responsive layout (flex layout module)
+- [x] Angular Pipes
+- [x] ES6  Observables
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Bugs and feature requests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Have a bug or a feature request? Please first read the issue guidelines
+and search for existing and closed issues. If your problem or idea is not addressed yet,
+[please open a new issue](https://github.com/shilpaHS/mockup/issues/new).
 
-## Running end-to-end tests
+## Creators
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Shilpa**
 
-## Further help
+- <https://github.com/shilpaHS>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Thanks
+
+Thanks to all contributors and their support.
+
+If you have an idea or you want to do something, tell me or just do it! I'm always happy to hear
+your feedback!
+
+Enjoy :metal:

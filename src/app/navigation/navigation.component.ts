@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent {
-
+  hideSideNav = false
   constructor() { }
-
+  toggleSideNav() {
+    this.hideSideNav = !this.hideSideNav
+  }
 
 }
